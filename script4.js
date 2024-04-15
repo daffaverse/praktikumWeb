@@ -21,3 +21,54 @@ $(document).ready(function() {
       });
   });
 });
+
+$(document).ready(function() {
+  $('.hero-content').hover(function() {
+      $(this).animate({
+          width: '+=10px',  // Memperbesar lebar link
+          height: '+=10px'  // Memperbesar tinggi link
+      }, 200);
+  }, function() {
+      $(this).animate({
+          width: '-=10px',  // Mengembalikan lebar link ke ukuran semula
+          height: '-=10px'  // Mengembalikan tinggi link ke ukuran semula
+      }, 200);
+  });
+
+  $('.hero-content2').hover(function() {
+      $(this).animate({
+          width: '+=10px',
+          height: '+=10px'
+      }, 200);
+  }, function() {
+      $(this).animate({
+          width: '-=10px',
+          height: '-=10px'
+      }, 200);
+  });
+
+  $('.footer1').hover(function() {
+    $(this).animate({
+        width: '+=10px',
+        height: '+=10px'
+    }, 200);
+}, function() {
+    $(this).animate({
+        width: '-=10px',
+        height: '-=10px'
+    }, 200);
+});
+
+$('.footer2').hover(function() {
+  $(this).animate({
+      width: '+=10px',
+      height: '+=10px'
+  }, 200);
+}, function() {
+  $(this).animate({
+      width: '-=10px',
+      height: '-=10px'
+  }, 200);
+});
+});
+
