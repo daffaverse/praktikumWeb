@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhu Converter</title>
+    <link rel="icon" type="image/x-icon" href="../../../picture/logo_daffaverse.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Konversi Suhu</h1>
+    </header>
+    <div class="container">
+        <h2>Hitung Konversi Suhu</h2>
+        <select id="unit">
+          <option value="celsius">Celsius</option>
+          <option value="reamur">Reamur</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+        <input type="number" id="inputTemp" placeholder="Masukkan suhu">
+        <button onclick="convert()">Konversi</button>
+        <div id="results" class="results"></div>
+      </div>
+      
+    <script src="script4.js"></script>
+</body>
+</html>
